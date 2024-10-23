@@ -1,6 +1,6 @@
 resource "google_storage_bucket" "auto-expire" {
   name          = "auto-expiring-bucket"
-  project       = "GCP Demo"
+  project       = "gcp-demo-416310"
   location      = "US"
   force_destroy = true
 
