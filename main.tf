@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "auto-expire" {
+resource "google_storage_bucket" "test" {
   name          = "auto-expiring-bucket"
   project       = "gcp-demo-416310"
   location      = "US"
